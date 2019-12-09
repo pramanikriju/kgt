@@ -93,3 +93,7 @@ body {
 .card-gray {
     background-color: rgba(76, 76, 76, 0.7);
 }
+
+.bg-none {
+    background: none !important;
+}
