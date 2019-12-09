@@ -97,3 +97,14 @@ body {
 .bg-none {
     background: none !important;
 }
+
+.text-brand {
+    color: #c45e78;
+    
+}
+.bg-brand {
+    background-color: #c45e78;
+}
+.social-link {
+    color: white;
+}
