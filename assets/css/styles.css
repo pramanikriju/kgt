@@ -108,3 +108,6 @@ body {
 .social-link {
     color: white;
 }
+.social-link:hover {
+    color: #4c4c4c;
+}
