@@ -8,6 +8,8 @@ body {
   color: #5a5a5a;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Baskervville&display=swap');
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -85,7 +87,7 @@ body {
 
 @media (min-width: 62em) {
   .featurette-heading {
-    margin-top: 7rem;
+/*    margin-top: 7rem;*/
   }
 }
 
@@ -99,15 +101,18 @@ body {
 }
 
 .text-brand {
-    color: #c45e78;
+    color: #D47B85;
     
 }
 .bg-brand {
-    background-color: #c45e78;
+    background-color: #D47B85;
 }
 .social-link {
     color: white;
 }
 .social-link:hover {
     color: #4c4c4c;
+}
+h1,h2,h3,h4,h5 {
+    font-family: 'Baskervville', serif !important;
 }
