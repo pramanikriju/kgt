@@ -52,20 +52,31 @@
 </head>
 
 <body>
-    <header>
+      <header>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-brand">
-            <a class="navbar-brand" href="#" style="font-family: 'Baskervville', serif;font-size: 1.5rem;text-transform: uppercase;">
+            <a class="navbar-brand" href="/" style="font-family: 'Baskervville', serif;font-size: 1.5rem;text-transform: uppercase;">
                 <img src="img/logo-circular.png" width="40" height="40" class="d-inline-block align-top" alt="">
                 Kothari General Trading
-            </a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item ">
-                        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item dropdown active">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            About
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                            <a class="dropdown-item " href="index.html#vision">Vision</a>
+                            <a class="dropdown-item " href="index.html#mission">Mission</a>
+                            <a class="dropdown-item " href="index.html#values">Values</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Business
                         </a>
@@ -74,7 +85,11 @@
                             <a class="dropdown-item " href="agro.html">Agro Commodities</a>
                             <a class="dropdown-item " href="petroleum.html">Petroleum</a>
                             <a class="dropdown-item active" href="chemicals.html">Chemicals & Fertilisers</a>
+                             <a class="dropdown-item " href="furnishings.html">Home Furnishings</a>
                         </div>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="careers.html">Careers</a>
                     </li>
                 </ul>
                 <form class="form-inline mt-2 mt-md-0">
